@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* Defaul font size is 16px so 62.5% -> 
+    1rem = 10px to easy customizee */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+
+/* Common */
+
+.close {
+    display: none !important;
+}
+
+.icon--active {
+    color: var(--black-color) !important;
+}
+
+.strong {
+    font-weight: 600 !important;
+}
